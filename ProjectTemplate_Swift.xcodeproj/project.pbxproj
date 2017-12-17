@@ -31,6 +31,10 @@
 		CDB856151FD3CB2F00860F80 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB856141FD3CB2F00860F80 /* TestModel.swift */; };
 		CDB856191FD423BB00860F80 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB856181FD423BB00860F80 /* GithubAPI.swift */; };
 		CDB8561B1FD4347700860F80 /* GithubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB8561A1FD4347700860F80 /* GithubModel.swift */; };
+		CDFE4C851FE690960036D00E /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4C841FE690960036D00E /* DataBase.swift */; };
+		CDFE4C891FE690F70036D00E /* CommonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4C881FE690F70036D00E /* CommonModel.swift */; };
+		CDFE4C8B1FE691030036D00E /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4C8A1FE691030036D00E /* CommonView.swift */; };
+		CDFE4C901FE6916E0036D00E /* AHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4C8F1FE6916E0036D00E /* AHomeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +97,10 @@
 		CDB856141FD3CB2F00860F80 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		CDB856181FD423BB00860F80 /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
 		CDB8561A1FD4347700860F80 /* GithubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubModel.swift; sourceTree = "<group>"; };
+		CDFE4C841FE690960036D00E /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		CDFE4C881FE690F70036D00E /* CommonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CommonModel.swift; path = ProjectTemplate_Swift/Expand/DataBase/CommonModel.swift; sourceTree = SOURCE_ROOT; };
+		CDFE4C8A1FE691030036D00E /* CommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CommonView.swift; path = ProjectTemplate_Swift/Expand/DataBase/CommonView.swift; sourceTree = SOURCE_ROOT; };
+		CDFE4C8F1FE6916E0036D00E /* AHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHomeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				502D19BC1FD108A8002DC38D /* Const&Macro */,
-				502D19BD1FD108A8002DC38D /* DataBase */,
+				CDFE4C821FE690830036D00E /* DataBase */,
 				502D19BE1FD108A8002DC38D /* Extension */,
 				502D19BF1FD108A8002DC38D /* Network */,
 				502D19C01FD108A8002DC38D /* Tool */,
@@ -143,13 +151,6 @@
 				503D68151FD67D1A00F8F89B /* Config.swift */,
 			);
 			path = "Const&Macro";
-			sourceTree = "<group>";
-		};
-		502D19BD1FD108A8002DC38D /* DataBase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataBase;
 			sourceTree = "<group>";
 		};
 		502D19BE1FD108A8002DC38D /* Extension */ = {
@@ -192,7 +193,7 @@
 			children = (
 				502D19C31FD108A8002DC38D /* Models */,
 				502D19C41FD108A8002DC38D /* ViewControllers */,
-				502D19C51FD108A8002DC38D /* Views */,
+				CDFE4C8D1FE691580036D00E /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -212,29 +213,6 @@
 				502D19DC1FD10945002DC38D /* TestViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		502D19C51FD108A8002DC38D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				502D19C61FD108A8002DC38D /* CollectCells */,
-				502D19C71FD108A8002DC38D /* TableCells */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		502D19C61FD108A8002DC38D /* CollectCells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectCells;
-			sourceTree = "<group>";
-		};
-		502D19C71FD108A8002DC38D /* TableCells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableCells;
 			sourceTree = "<group>";
 		};
 		502D19C81FD108A8002DC38D /* Resource */ = {
@@ -265,8 +243,8 @@
 		503C912E1FD4EE0100045FD1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				503C91351FD4F31A00045FD1 /* Models */,
-				503C91341FD4F30B00045FD1 /* Views */,
+				CDFE4C861FE690D80036D00E /* Models */,
+				CDFE4C871FE690D80036D00E /* Views */,
 				503C91331FD4F2DE00045FD1 /* ViewControllers */,
 			);
 			path = Common;
@@ -278,20 +256,6 @@
 				503C91311FD4F2CD00045FD1 /* BaseViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		503C91341FD4F30B00045FD1 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		503C91351FD4F31A00045FD1 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		503D68171FD7DCC400F8F89B /* Test */ = {
@@ -393,6 +357,46 @@
 				A850E09CF0B80F48E06BB7F4 /* Pods_ProjectTemplate_SwiftUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDFE4C821FE690830036D00E /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4C841FE690960036D00E /* DataBase.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		CDFE4C861FE690D80036D00E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4C881FE690F70036D00E /* CommonModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDFE4C871FE690D80036D00E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4C8A1FE691030036D00E /* CommonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDFE4C8D1FE691580036D00E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4C8E1FE691580036D00E /* TableCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDFE4C8E1FE691580036D00E /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				CDFE4C8F1FE6916E0036D00E /* AHomeCell.swift */,
+			);
+			path = TableCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -684,13 +688,17 @@
 				503C91421FD54A3F00045FD1 /* Utilities.swift in Sources */,
 				503C91391FD4F3D300045FD1 /* Theme.swift in Sources */,
 				CDB856151FD3CB2F00860F80 /* TestModel.swift in Sources */,
+				CDFE4C891FE690F70036D00E /* CommonModel.swift in Sources */,
 				506BBC261FDA5F1B00D216A3 /* MoyaNetworkIndicatorPlugin.swift in Sources */,
 				503D68161FD67D1A00F8F89B /* Config.swift in Sources */,
 				503C913B1FD4F84F00045FD1 /* UIColor+Extension.swift in Sources */,
 				CDB8561B1FD4347700860F80 /* GithubModel.swift in Sources */,
 				502D19DD1FD10945002DC38D /* TestViewController.swift in Sources */,
+				CDFE4C8B1FE691030036D00E /* CommonView.swift in Sources */,
 				50D158ED1FD0097B00E569D8 /* AppDelegate.swift in Sources */,
 				CDB856191FD423BB00860F80 /* GithubAPI.swift in Sources */,
+				CDFE4C851FE690960036D00E /* DataBase.swift in Sources */,
+				CDFE4C901FE6916E0036D00E /* AHomeCell.swift in Sources */,
 				503C91321FD4F2CD00045FD1 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

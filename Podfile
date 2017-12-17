@@ -1,5 +1,6 @@
 # Uncomment the next line to define a global platform for your project
  platform :ios, '8.3'
+ inhibit_all_warnings!
 
 target 'ProjectTemplate_Swift' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -21,6 +22,7 @@ target 'ProjectTemplate_Swift' do
 
   target 'ProjectTemplate_SwiftUITests' do
     inherit! :search_paths
+    
     # Pods for testing
   end
 
