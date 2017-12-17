@@ -52,6 +52,7 @@ class Utilities: NSObject {
         Utilities.hideHUD()
         let hud = MBProgressHUD.showAdded(to: Constant.keyWindow, animated: true)
         hud.label.text = text
+        hud.label.font = UIFont.systemFont(ofSize: 15)
     }
     
     //弹出文字提示
@@ -60,6 +61,7 @@ class Utilities: NSObject {
         let hud = MBProgressHUD.showAdded(to: Constant.keyWindow, animated: true)
         hud.mode = .text
         hud.label.text = text
+        hud.label.font = UIFont.systemFont(ofSize: 15)
         hud.label.numberOfLines = 3
         hud.hide(animated: true, afterDelay: 2)
     }
