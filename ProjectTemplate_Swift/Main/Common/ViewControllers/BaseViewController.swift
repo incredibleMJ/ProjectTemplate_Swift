@@ -10,10 +10,18 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        self.hidesBottomBarWhenPushed = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
 }

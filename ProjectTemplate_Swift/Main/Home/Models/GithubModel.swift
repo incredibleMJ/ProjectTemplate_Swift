@@ -7,7 +7,8 @@
 //
 
 import Foundation
+import HandyJSON
 
-struct GitHubRepo: Codable {
-    var name: String
+struct GitHubRepo: HandyJSON {
+    var name: String = ""
 }

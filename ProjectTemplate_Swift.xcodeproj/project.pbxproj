@@ -35,12 +35,12 @@
 		50D159021FD0097B00E569D8 /* ProjectTemplate_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D159011FD0097B00E569D8 /* ProjectTemplate_SwiftTests.swift */; };
 		50D1590D1FD0097B00E569D8 /* ProjectTemplate_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D1590C1FD0097B00E569D8 /* ProjectTemplate_SwiftUITests.swift */; };
 		80CDDF51CC2BBCB5F21F4E87 /* Pods_ProjectTemplate_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF5F1822242B451A1FCA169 /* Pods_ProjectTemplate_Swift.framework */; };
+		CD49D11C1FEC1DDF00292DFC /* MJHUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49D11B1FEC1DDF00292DFC /* MJHUDView.swift */; };
 		CDB856151FD3CB2F00860F80 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB856141FD3CB2F00860F80 /* TestModel.swift */; };
 		CDB856191FD423BB00860F80 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB856181FD423BB00860F80 /* GithubAPI.swift */; };
 		CDB8561B1FD4347700860F80 /* GithubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB8561A1FD4347700860F80 /* GithubModel.swift */; };
 		CDFE4C851FE690960036D00E /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4C841FE690960036D00E /* DataBase.swift */; };
 		CDFE4C901FE6916E0036D00E /* AHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4C8F1FE6916E0036D00E /* AHomeCell.swift */; };
-		CDFE4CB31FE695150036D00E /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFE4CB21FE695150036D00E /* CommonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,12 +112,12 @@
 		A850E09CF0B80F48E06BB7F4 /* Pods_ProjectTemplate_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF5F1822242B451A1FCA169 /* Pods_ProjectTemplate_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73966DA94EC7CEB2CDF46B1 /* Pods-ProjectTemplate_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate_Swift/Pods-ProjectTemplate_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		CD49D11B1FEC1DDF00292DFC /* MJHUDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJHUDView.swift; sourceTree = "<group>"; };
 		CDB856141FD3CB2F00860F80 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		CDB856181FD423BB00860F80 /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
 		CDB8561A1FD4347700860F80 /* GithubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubModel.swift; sourceTree = "<group>"; };
 		CDFE4C841FE690960036D00E /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 		CDFE4C8F1FE6916E0036D00E /* AHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHomeCell.swift; sourceTree = "<group>"; };
-		CDFE4CB21FE695150036D00E /* CommonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,7 +478,7 @@
 		CDFE4CB11FE695150036D00E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CDFE4CB21FE695150036D00E /* CommonView.swift */,
+				CD49D11B1FEC1DDF00292DFC /* MJHUDView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -772,6 +772,7 @@
 				503C913F1FD524E200045FD1 /* NSString+Extension.swift in Sources */,
 				50C7D81E1FEB5C63008616E9 /* LBSegmentControl.m in Sources */,
 				503C91421FD54A3F00045FD1 /* Utilities.swift in Sources */,
+				CD49D11C1FEC1DDF00292DFC /* MJHUDView.swift in Sources */,
 				50C7D8211FEB5C63008616E9 /* UIView+ViewController.m in Sources */,
 				503C91391FD4F3D300045FD1 /* Theme.swift in Sources */,
 				CDB856151FD3CB2F00860F80 /* TestModel.swift in Sources */,
@@ -789,7 +790,6 @@
 				CDFE4C901FE6916E0036D00E /* AHomeCell.swift in Sources */,
 				503C91321FD4F2CD00045FD1 /* BaseViewController.swift in Sources */,
 				50C7D8421FEBCFDD008616E9 /* BaseModel.swift in Sources */,
-				CDFE4CB31FE695150036D00E /* CommonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
