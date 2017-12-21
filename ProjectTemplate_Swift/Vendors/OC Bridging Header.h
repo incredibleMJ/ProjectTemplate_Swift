@@ -10,5 +10,6 @@
 #define OC_Bridging_Header_h
 
 #import "CNPPopupController.h"
+#import "LBSegmentControl.h"
 
 #endif /* OC_Bridging_Header_h */

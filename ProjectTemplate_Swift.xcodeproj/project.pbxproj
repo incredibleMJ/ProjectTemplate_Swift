@@ -21,6 +21,12 @@
 		503D68EF1FD910AB00F8F89B /* Taylor Swift7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 503D68A81FD8E88900F8F89B /* Taylor Swift7.jpeg */; };
 		503D68F11FD910B100F8F89B /* Taylor Swift8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 503D68181FD7DCD500F8F89B /* Taylor Swift8.jpeg */; };
 		506BBC261FDA5F1B00D216A3 /* MoyaNetworkIndicatorPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506BBC251FDA5F1B00D216A3 /* MoyaNetworkIndicatorPlugin.swift */; };
+		50C7D81D1FEB5C63008616E9 /* LBSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D80E1FEB5C63008616E9 /* LBSegment.m */; };
+		50C7D81E1FEB5C63008616E9 /* LBSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8101FEB5C63008616E9 /* LBSegmentControl.m */; };
+		50C7D81F1FEB5C63008616E9 /* LBKitConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8131FEB5C63008616E9 /* LBKitConst.m */; };
+		50C7D8201FEB5C63008616E9 /* upIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7D8151FEB5C63008616E9 /* upIcon.png */; };
+		50C7D8211FEB5C63008616E9 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8191FEB5C63008616E9 /* UIView+ViewController.m */; };
+		50C7D8221FEB5C63008616E9 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D81C1FEB5C63008616E9 /* UIViewExt.m */; };
 		50D158ED1FD0097B00E569D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D158EC1FD0097B00E569D8 /* AppDelegate.swift */; };
 		50D158F21FD0097B00E569D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D158F01FD0097B00E569D8 /* Main.storyboard */; };
 		50D158F41FD0097B00E569D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D158F31FD0097B00E569D8 /* Assets.xcassets */; };
@@ -71,6 +77,17 @@
 		503D68A51FD8E1DE00F8F89B /* OC Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OC Bridging Header.h"; sourceTree = "<group>"; };
 		503D68A81FD8E88900F8F89B /* Taylor Swift7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Taylor Swift7.jpeg"; sourceTree = "<group>"; };
 		506BBC251FDA5F1B00D216A3 /* MoyaNetworkIndicatorPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaNetworkIndicatorPlugin.swift; sourceTree = "<group>"; };
+		50C7D80D1FEB5C63008616E9 /* LBSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegment.h; sourceTree = "<group>"; };
+		50C7D80E1FEB5C63008616E9 /* LBSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSegment.m; sourceTree = "<group>"; };
+		50C7D80F1FEB5C63008616E9 /* LBSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegmentControl.h; sourceTree = "<group>"; };
+		50C7D8101FEB5C63008616E9 /* LBSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSegmentControl.m; sourceTree = "<group>"; };
+		50C7D8121FEB5C63008616E9 /* LBKitConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBKitConst.h; sourceTree = "<group>"; };
+		50C7D8131FEB5C63008616E9 /* LBKitConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBKitConst.m; sourceTree = "<group>"; };
+		50C7D8151FEB5C63008616E9 /* upIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upIcon.png; sourceTree = "<group>"; };
+		50C7D8181FEB5C63008616E9 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		50C7D8191FEB5C63008616E9 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		50C7D81B1FEB5C63008616E9 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		50C7D81C1FEB5C63008616E9 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		50D158E91FD0097B00E569D8 /* ProjectTemplate_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTemplate_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D158EC1FD0097B00E569D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D158F11FD0097B00E569D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -236,6 +253,7 @@
 			children = (
 				503D68A51FD8E1DE00F8F89B /* OC Bridging Header.h */,
 				503D68A21FD800F200F8F89B /* CNPPopupController */,
+				50C7D80B1FEB5C63008616E9 /* LBSegmentControlKit */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -274,6 +292,72 @@
 				503D68A41FD800F200F8F89B /* CNPPopupController.m */,
 			);
 			path = CNPPopupController;
+			sourceTree = "<group>";
+		};
+		50C7D80B1FEB5C63008616E9 /* LBSegmentControlKit */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D80C1FEB5C63008616E9 /* LBSegmentControl */,
+				50C7D8111FEB5C63008616E9 /* LBSegmentControlConst */,
+				50C7D8141FEB5C63008616E9 /* LBSegmentControlImgs */,
+				50C7D8161FEB5C63008616E9 /* LBSegmentControlTools */,
+			);
+			path = LBSegmentControlKit;
+			sourceTree = "<group>";
+		};
+		50C7D80C1FEB5C63008616E9 /* LBSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D80D1FEB5C63008616E9 /* LBSegment.h */,
+				50C7D80E1FEB5C63008616E9 /* LBSegment.m */,
+				50C7D80F1FEB5C63008616E9 /* LBSegmentControl.h */,
+				50C7D8101FEB5C63008616E9 /* LBSegmentControl.m */,
+			);
+			path = LBSegmentControl;
+			sourceTree = "<group>";
+		};
+		50C7D8111FEB5C63008616E9 /* LBSegmentControlConst */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D8121FEB5C63008616E9 /* LBKitConst.h */,
+				50C7D8131FEB5C63008616E9 /* LBKitConst.m */,
+			);
+			path = LBSegmentControlConst;
+			sourceTree = "<group>";
+		};
+		50C7D8141FEB5C63008616E9 /* LBSegmentControlImgs */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D8151FEB5C63008616E9 /* upIcon.png */,
+			);
+			path = LBSegmentControlImgs;
+			sourceTree = "<group>";
+		};
+		50C7D8161FEB5C63008616E9 /* LBSegmentControlTools */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D8171FEB5C63008616E9 /* UIView+ViewController */,
+				50C7D81A1FEB5C63008616E9 /* UIViewExt */,
+			);
+			path = LBSegmentControlTools;
+			sourceTree = "<group>";
+		};
+		50C7D8171FEB5C63008616E9 /* UIView+ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D8181FEB5C63008616E9 /* UIView+ViewController.h */,
+				50C7D8191FEB5C63008616E9 /* UIView+ViewController.m */,
+			);
+			path = "UIView+ViewController";
+			sourceTree = "<group>";
+		};
+		50C7D81A1FEB5C63008616E9 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				50C7D81B1FEB5C63008616E9 /* UIViewExt.h */,
+				50C7D81C1FEB5C63008616E9 /* UIViewExt.m */,
+			);
+			path = UIViewExt;
 			sourceTree = "<group>";
 		};
 		50D158E01FD0097A00E569D8 = {
@@ -516,6 +600,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				503D68F11FD910B100F8F89B /* Taylor Swift8.jpeg in Resources */,
+				50C7D8201FEB5C63008616E9 /* upIcon.png in Resources */,
 				50D158F71FD0097B00E569D8 /* LaunchScreen.storyboard in Resources */,
 				503D68EF1FD910AB00F8F89B /* Taylor Swift7.jpeg in Resources */,
 				50D158F41FD0097B00E569D8 /* Assets.xcassets in Resources */,
@@ -685,16 +770,21 @@
 				503D68A71FD8E7C500F8F89B /* CNPPopupController.m in Sources */,
 				503C91371FD4F3C800045FD1 /* Constant.swift in Sources */,
 				503C913F1FD524E200045FD1 /* NSString+Extension.swift in Sources */,
+				50C7D81E1FEB5C63008616E9 /* LBSegmentControl.m in Sources */,
 				503C91421FD54A3F00045FD1 /* Utilities.swift in Sources */,
+				50C7D8211FEB5C63008616E9 /* UIView+ViewController.m in Sources */,
 				503C91391FD4F3D300045FD1 /* Theme.swift in Sources */,
 				CDB856151FD3CB2F00860F80 /* TestModel.swift in Sources */,
+				50C7D81D1FEB5C63008616E9 /* LBSegment.m in Sources */,
 				CDFE4CB01FE6950B0036D00E /* CommonModel.swift in Sources */,
 				506BBC261FDA5F1B00D216A3 /* MoyaNetworkIndicatorPlugin.swift in Sources */,
+				50C7D8221FEB5C63008616E9 /* UIViewExt.m in Sources */,
 				503D68161FD67D1A00F8F89B /* Config.swift in Sources */,
 				503C913B1FD4F84F00045FD1 /* UIColor+Extension.swift in Sources */,
 				CDB8561B1FD4347700860F80 /* GithubModel.swift in Sources */,
 				502D19DD1FD10945002DC38D /* TestViewController.swift in Sources */,
 				50D158ED1FD0097B00E569D8 /* AppDelegate.swift in Sources */,
+				50C7D81F1FEB5C63008616E9 /* LBKitConst.m in Sources */,
 				CDB856191FD423BB00860F80 /* GithubAPI.swift in Sources */,
 				CDFE4C851FE690960036D00E /* DataBase.swift in Sources */,
 				CDFE4C901FE6916E0036D00E /* AHomeCell.swift in Sources */,

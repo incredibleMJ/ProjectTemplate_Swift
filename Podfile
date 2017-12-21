@@ -14,6 +14,7 @@ target 'ProjectTemplate_Swift' do
   pod 'SnapKit', '~> 4.0.0' #布局库
   pod 'Kingfisher', '~> 4.0' #网络图片加载
   pod 'CryptoSwift' #加解密
+  pod 'DZNEmptyDataSet' #空列表显示
 
   target 'ProjectTemplate_SwiftTests' do
     inherit! :search_paths
