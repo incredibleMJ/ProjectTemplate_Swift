@@ -9,6 +9,7 @@ target 'ProjectTemplate_Swift' do
   # Pods for ProjectTemplate_Swift
   pod 'Moya', '~> 9.0' #网络抽象层
   pod 'Alamofire', '~> 4.5' #网络请求库
+  pod 'YYModel' #JSON转模型
   pod 'MJRefresh' #下拉刷新
   pod 'MBProgressHUD', '~> 1.1.0' #弹框提示
   pod 'SnapKit', '~> 4.0.0' #布局库
