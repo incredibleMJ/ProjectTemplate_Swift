@@ -27,7 +27,7 @@
 		50C7D8201FEB5C63008616E9 /* upIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7D8151FEB5C63008616E9 /* upIcon.png */; };
 		50C7D8211FEB5C63008616E9 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8191FEB5C63008616E9 /* UIView+ViewController.m */; };
 		50C7D8221FEB5C63008616E9 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D81C1FEB5C63008616E9 /* UIViewExt.m */; };
-		50C7D8401FEB9972008616E9 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D83F1FEB9972008616E9 /* BaseModel.swift */; };
+		50C7D8421FEBCFDD008616E9 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8411FEBCFDC008616E9 /* BaseModel.swift */; };
 		50D158ED1FD0097B00E569D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D158EC1FD0097B00E569D8 /* AppDelegate.swift */; };
 		50D158F21FD0097B00E569D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D158F01FD0097B00E569D8 /* Main.storyboard */; };
 		50D158F41FD0097B00E569D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D158F31FD0097B00E569D8 /* Assets.xcassets */; };
@@ -88,7 +88,7 @@
 		50C7D8191FEB5C63008616E9 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
 		50C7D81B1FEB5C63008616E9 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		50C7D81C1FEB5C63008616E9 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
-		50C7D83F1FEB9972008616E9 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		50C7D8411FEBCFDC008616E9 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		50D158E91FD0097B00E569D8 /* ProjectTemplate_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTemplate_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D158EC1FD0097B00E569D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D158F11FD0097B00E569D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -470,7 +470,7 @@
 		CDFE4CAE1FE6950B0036D00E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				50C7D83F1FEB9972008616E9 /* BaseModel.swift */,
+				50C7D8411FEBCFDC008616E9 /* BaseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -773,7 +773,6 @@
 				50C7D81E1FEB5C63008616E9 /* LBSegmentControl.m in Sources */,
 				503C91421FD54A3F00045FD1 /* Utilities.swift in Sources */,
 				50C7D8211FEB5C63008616E9 /* UIView+ViewController.m in Sources */,
-				50C7D8401FEB9972008616E9 /* BaseModel.swift in Sources */,
 				503C91391FD4F3D300045FD1 /* Theme.swift in Sources */,
 				CDB856151FD3CB2F00860F80 /* TestModel.swift in Sources */,
 				50C7D81D1FEB5C63008616E9 /* LBSegment.m in Sources */,
@@ -789,6 +788,7 @@
 				CDFE4C851FE690960036D00E /* DataBase.swift in Sources */,
 				CDFE4C901FE6916E0036D00E /* AHomeCell.swift in Sources */,
 				503C91321FD4F2CD00045FD1 /* BaseViewController.swift in Sources */,
+				50C7D8421FEBCFDD008616E9 /* BaseModel.swift in Sources */,
 				CDFE4CB31FE695150036D00E /* CommonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

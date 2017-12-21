@@ -7,33 +7,8 @@
 //
 
 import Foundation
-import YYModel
+import HandyJSON
 
-class BaseModel: NSObject, NSCoding, NSCopying, YYModel {
-    
-    func encode(with aCoder: NSCoder) {
-        yy_modelEncode(with: aCoder)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init()
-        yy_modelInit(with: aDecoder)
-    }
-    
-    func copy(with zone: NSZone? = nil) -> Any {
-        return yy_modelCopy() ?? NSObject()
-    }
-    
-    override var hash: Int {
-        return Int(yy_modelHash())
-    }
-    
-    override func isEqual(_ object: Any?) -> Bool {
-        return yy_modelIsEqual(object ?? NSObject())
-    }
-    
-    override var description: String {
-        return yy_modelDescription()
-    }
-    
+class BaseModel: HandyJSON {
+    required init() {}
 }
