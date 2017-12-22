@@ -10,4 +10,5 @@ import Foundation
 
 struct GitHubRepo: Codable {
     var name: String
+    var test: String
 }
