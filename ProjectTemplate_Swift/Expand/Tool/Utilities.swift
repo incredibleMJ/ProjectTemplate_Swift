@@ -41,24 +41,27 @@ class Utilities: NSObject {
     }
     
     //MARK: - 弹提示框
-    //弹出转圈圈
+    
+    var showedHuds = [MBProgressHUD]()
+    
+    ///弹出转圈圈
     static func showLoading() {
         Utilities.hideHUD()
-        MBProgressHUD.showAdded(to: Constant.keyWindow, animated: true)
+        MJHUDView.showAdded(to: Constant.keyWindow, animated: true)
     }
     
-    //弹出带有文字的转圈圈
+    ///弹出带有文字的转圈圈
     static func showLoading(withText text: String?) {
         Utilities.hideHUD()
-        let hud = MBProgressHUD.showAdded(to: Constant.keyWindow, animated: true)
+        let hud = MJHUDView.showAdded(to: Constant.keyWindow, animated: true)
         hud.label.text = text
         hud.label.font = UIFont.systemFont(ofSize: 15)
     }
     
-    //弹出文字提示
+    ///弹出文字提示
     static func showText(_ text: String) {
         Utilities.hideHUD()
-        let hud = MBProgressHUD.showAdded(to: Constant.keyWindow, animated: true)
+        let hud = MJHUDView.showAdded(to: Constant.keyWindow, animated: true)
         hud.mode = .text
         hud.label.text = text
         hud.label.font = UIFont.systemFont(ofSize: 15)
@@ -66,9 +69,12 @@ class Utilities: NSObject {
         hud.hide(animated: true, afterDelay: 2)
     }
     
-    //隐藏提示框
+    ///隐藏提示框
     static func hideHUD() {
-        MBProgressHUD.hide(for: Constant.keyWindow, animated: true)
+        Utilities.shared.showedHuds.forEach { (hud) in
+            hud.hide(animated: true)
+        }
+        Utilities.shared.showedHuds.removeAll()
     }
     
 }
