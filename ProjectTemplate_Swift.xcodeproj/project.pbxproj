@@ -20,6 +20,7 @@
 		503D68EF1FD910AB00F8F89B /* Taylor Swift7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 503D68A81FD8E88900F8F89B /* Taylor Swift7.jpeg */; };
 		503D68F11FD910B100F8F89B /* Taylor Swift8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 503D68181FD7DCD500F8F89B /* Taylor Swift8.jpeg */; };
 		50AD203B1FF22283002608B6 /* MoyaTokenPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AD203A1FF22283002608B6 /* MoyaTokenPlugin.swift */; };
+		50AD203F1FF22930002608B6 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AD203E1FF22930002608B6 /* Singleton.swift */; };
 		50C7D81D1FEB5C63008616E9 /* LBSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D80E1FEB5C63008616E9 /* LBSegment.m */; };
 		50C7D81E1FEB5C63008616E9 /* LBSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8101FEB5C63008616E9 /* LBSegmentControl.m */; };
 		50C7D81F1FEB5C63008616E9 /* LBKitConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8131FEB5C63008616E9 /* LBKitConst.m */; };
@@ -76,6 +77,7 @@
 		503D68A51FD8E1DE00F8F89B /* OC Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OC Bridging Header.h"; sourceTree = "<group>"; };
 		503D68A81FD8E88900F8F89B /* Taylor Swift7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Taylor Swift7.jpeg"; sourceTree = "<group>"; };
 		50AD203A1FF22283002608B6 /* MoyaTokenPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaTokenPlugin.swift; sourceTree = "<group>"; };
+		50AD203E1FF22930002608B6 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		50C7D80D1FEB5C63008616E9 /* LBSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegment.h; sourceTree = "<group>"; };
 		50C7D80E1FEB5C63008616E9 /* LBSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSegment.m; sourceTree = "<group>"; };
 		50C7D80F1FEB5C63008616E9 /* LBSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegmentControl.h; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				503C91411FD54A3F00045FD1 /* Utilities.swift */,
+				50AD203E1FF22930002608B6 /* Singleton.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -788,6 +791,7 @@
 				50C7D8871FECE538008616E9 /* Constant.swift in Sources */,
 				50C7D8221FEB5C63008616E9 /* UIViewExt.m in Sources */,
 				503D68161FD67D1A00F8F89B /* Config.swift in Sources */,
+				50AD203F1FF22930002608B6 /* Singleton.swift in Sources */,
 				503C913B1FD4F84F00045FD1 /* UIColor+Extension.swift in Sources */,
 				CDB8561B1FD4347700860F80 /* GithubModel.swift in Sources */,
 				502D19DD1FD10945002DC38D /* TestViewController.swift in Sources */,
