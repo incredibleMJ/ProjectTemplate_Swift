@@ -20,7 +20,7 @@ class Utilities: NSObject {
     
     //MARK: - 网络状态监听
     let manager = NetworkReachabilityManager(host: "www.baidu.com")
-    var isConnected: Bool = false
+    var isConnected: Bool = true
     func startNetworkMonitor () {
         manager?.listener = { status in
             switch status {
@@ -38,6 +38,13 @@ class Utilities: NSObject {
             }
         }
         manager?.startListening()
+    }
+    @discardableResult
+    func checkNetworking() -> Bool {
+        if !isConnected {
+            Utilities.showText("网络连接已断开!")
+        }
+        return isConnected
     }
     
     //MARK: - 弹提示框

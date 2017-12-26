@@ -12,6 +12,7 @@ import Moya
 let networkActivityPlugin = NetworkActivityPlugin.init { (type) in
     switch type {
     case .began:
+        Utilities.shared.checkNetworking()
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
     case .ended:
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
