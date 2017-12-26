@@ -9,7 +9,20 @@
 import Foundation
 import Moya
 
-let gitHubProvider = MoyaProvider<GitHub>(plugins: [NetworkLoggerPlugin(verbose: false), MoyaNetworkIndicatorPlugin()])
+let networkActivityPlugin = NetworkActivityPlugin.init { (type) in
+    switch type {
+    case .began:
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+    case .ended:
+        UIApplication.shared.isNetworkActivityIndicatorVisible = false
+    }
+}
+
+let tokenPlugin = MoyaTokenPlugin.init { () -> String in
+    return "t-Pi6VuGKvcbXzFi2kTIhvXnyY5V5fkBqXsOoBdmzEVLFMYELSu_hN6egChIzJyFgcam45YnZj7oaUzu002Y4Hdy-EdBoNUowisqSL8SscQ"
+}
+
+let gitHubProvider = MoyaProvider<GitHub>(plugins: [NetworkLoggerPlugin(verbose: false), networkActivityPlugin, tokenPlugin])
 
 public enum GitHub {
     case zen
