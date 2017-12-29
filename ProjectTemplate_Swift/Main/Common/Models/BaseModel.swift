@@ -12,6 +12,7 @@ import HandyJSON
 /// 只需 model json 互转而不用本地存储的 且有继承需求的 model 继承该类 ，无需本地化存储且无继承特性的 model 直接用 struct 定义，然后遵守 HandyJSON 协议就好
 class BaseModel: HandyJSON {
     required init() {}
+    func mapping(mapper: HelpingMapper) {}
 }
 
 extension Array where Element: HandyJSON {
