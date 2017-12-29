@@ -16,6 +16,8 @@ target 'ProjectTemplate_Swift' do
   pod 'Kingfisher', '~> 4.0' #网络图片加载
   pod 'CryptoSwift' #加解密
   pod 'DZNEmptyDataSet' #空列表显示
+  pod 'RealmSwift' #数据库
+  pod 'Bugly' #崩溃日志
 
   target 'ProjectTemplate_SwiftTests' do
     inherit! :search_paths

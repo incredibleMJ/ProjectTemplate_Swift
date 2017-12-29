@@ -92,7 +92,7 @@ class TestViewController: BaseViewController {
         titleLabel.attributedText = title
         
         let imageView = UIImageView.init(frame: CGRect.init(x: 0, y: 0, width: 250, height: 250))
-        imageView.image = UIImage.init(named: "Taylor Swift7.jpeg")
+        imageView.image = UIImage.init(named: "Taylor Swift8.jpeg")
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         

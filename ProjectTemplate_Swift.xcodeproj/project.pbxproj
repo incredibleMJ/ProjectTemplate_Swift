@@ -17,7 +17,6 @@
 		503C91421FD54A3F00045FD1 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503C91411FD54A3F00045FD1 /* Utilities.swift */; };
 		503D68161FD67D1A00F8F89B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503D68151FD67D1A00F8F89B /* Config.swift */; };
 		503D68A71FD8E7C500F8F89B /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503D68A41FD800F200F8F89B /* CNPPopupController.m */; };
-		503D68EF1FD910AB00F8F89B /* Taylor Swift7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 503D68A81FD8E88900F8F89B /* Taylor Swift7.jpeg */; };
 		503D68F11FD910B100F8F89B /* Taylor Swift8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 503D68181FD7DCD500F8F89B /* Taylor Swift8.jpeg */; };
 		50AD203B1FF22283002608B6 /* MoyaTokenPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AD203A1FF22283002608B6 /* MoyaTokenPlugin.swift */; };
 		50AD203F1FF22930002608B6 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AD203E1FF22930002608B6 /* Singleton.swift */; };
@@ -36,6 +35,8 @@
 		50D159021FD0097B00E569D8 /* ProjectTemplate_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D159011FD0097B00E569D8 /* ProjectTemplate_SwiftTests.swift */; };
 		50D1590D1FD0097B00E569D8 /* ProjectTemplate_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D1590C1FD0097B00E569D8 /* ProjectTemplate_SwiftUITests.swift */; };
 		80CDDF51CC2BBCB5F21F4E87 /* Pods_ProjectTemplate_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF5F1822242B451A1FCA169 /* Pods_ProjectTemplate_Swift.framework */; };
+		CD3478B01FF6AAC200EA921F /* BaseRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3478AF1FF6AAC200EA921F /* BaseRealmModel.swift */; };
+		CD3478B21FF6AAF500EA921F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3478B11FF6AAF500EA921F /* TabBarController.swift */; };
 		CD49D11C1FEC1DDF00292DFC /* MJHUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49D11B1FEC1DDF00292DFC /* MJHUDView.swift */; };
 		CDB856151FD3CB2F00860F80 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB856141FD3CB2F00860F80 /* TestModel.swift */; };
 		CDB856191FD423BB00860F80 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB856181FD423BB00860F80 /* GithubAPI.swift */; };
@@ -75,7 +76,6 @@
 		503D68A31FD800F200F8F89B /* CNPPopupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNPPopupController.h; sourceTree = "<group>"; };
 		503D68A41FD800F200F8F89B /* CNPPopupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNPPopupController.m; sourceTree = "<group>"; };
 		503D68A51FD8E1DE00F8F89B /* OC Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OC Bridging Header.h"; sourceTree = "<group>"; };
-		503D68A81FD8E88900F8F89B /* Taylor Swift7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Taylor Swift7.jpeg"; sourceTree = "<group>"; };
 		50AD203A1FF22283002608B6 /* MoyaTokenPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaTokenPlugin.swift; sourceTree = "<group>"; };
 		50AD203E1FF22930002608B6 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		50C7D80D1FEB5C63008616E9 /* LBSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegment.h; sourceTree = "<group>"; };
@@ -114,6 +114,8 @@
 		A850E09CF0B80F48E06BB7F4 /* Pods_ProjectTemplate_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF5F1822242B451A1FCA169 /* Pods_ProjectTemplate_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73966DA94EC7CEB2CDF46B1 /* Pods-ProjectTemplate_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate_Swift/Pods-ProjectTemplate_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		CD3478AF1FF6AAC200EA921F /* BaseRealmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRealmModel.swift; sourceTree = "<group>"; };
+		CD3478B11FF6AAF500EA921F /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		CD49D11B1FEC1DDF00292DFC /* MJHUDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJHUDView.swift; sourceTree = "<group>"; };
 		CDB856141FD3CB2F00860F80 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		CDB856181FD423BB00860F80 /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
@@ -265,8 +267,8 @@
 			isa = PBXGroup;
 			children = (
 				CDFE4CAE1FE6950B0036D00E /* Models */,
-				503C91331FD4F2DE00045FD1 /* ViewControllers */,
 				CDFE4CB11FE695150036D00E /* Views */,
+				503C91331FD4F2DE00045FD1 /* ViewControllers */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -275,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				503C91311FD4F2CD00045FD1 /* BaseViewController.swift */,
+				CD3478B11FF6AAF500EA921F /* TabBarController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -282,7 +285,6 @@
 		503D68171FD7DCC400F8F89B /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				503D68A81FD8E88900F8F89B /* Taylor Swift7.jpeg */,
 				503D68181FD7DCD500F8F89B /* Taylor Swift8.jpeg */,
 			);
 			path = Test;
@@ -482,6 +484,7 @@
 			isa = PBXGroup;
 			children = (
 				50C7D8411FEBCFDC008616E9 /* BaseModel.swift */,
+				CD3478AF1FF6AAC200EA921F /* BaseRealmModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -613,7 +616,6 @@
 				503D68F11FD910B100F8F89B /* Taylor Swift8.jpeg in Resources */,
 				50C7D8201FEB5C63008616E9 /* upIcon.png in Resources */,
 				50D158F71FD0097B00E569D8 /* LaunchScreen.storyboard in Resources */,
-				503D68EF1FD910AB00F8F89B /* Taylor Swift7.jpeg in Resources */,
 				50D158F41FD0097B00E569D8 /* Assets.xcassets in Resources */,
 				50D158F21FD0097B00E569D8 /* Main.storyboard in Resources */,
 			);
@@ -778,6 +780,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3478B01FF6AAC200EA921F /* BaseRealmModel.swift in Sources */,
+				CD3478B21FF6AAF500EA921F /* TabBarController.swift in Sources */,
 				503D68A71FD8E7C500F8F89B /* CNPPopupController.m in Sources */,
 				503C913F1FD524E200045FD1 /* NSString+Extension.swift in Sources */,
 				50C7D81E1FEB5C63008616E9 /* LBSegmentControl.m in Sources */,
