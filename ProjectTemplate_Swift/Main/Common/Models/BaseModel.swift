@@ -13,6 +13,7 @@ import HandyJSON
 class BaseModel: HandyJSON {
     required init() {}
     func mapping(mapper: HelpingMapper) {}
+    func didFinishMapping() {}
 }
 
 extension Array where Element: HandyJSON {

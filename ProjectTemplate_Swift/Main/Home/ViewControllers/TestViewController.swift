@@ -30,14 +30,14 @@ class TestViewController: BaseViewController {
             gitHubProvider.request(.userRepositories("incrediblemj")) { (result) in
                 switch result {
                 case .success(let moyaResponse):
-                    //                    do {
-                    //                        let models = try JSONDecoder().decode([GitHubRepo].self, from: moyaResponse.data)
-                    //                        self.repos.removeAll()
-                    //                        self.repos.append(contentsOf: models)
-                    //                        self.tableView.reloadData()
-                    //                    } catch {
-                    //                        Utilities.showText("\(error.localizedDescription)")
-                    //                    }
+//                    do {
+//                        let models = try JSONDecoder().decode([GitHubRepo].self, from: moyaResponse.data)
+//                        self.repos.removeAll()
+//                        self.repos.append(contentsOf: models)
+//                        self.tableView.reloadData()
+//                    } catch {
+//                        debugPrint("==========\(error.localizedDescription)")
+//                    }
                     
                     do {
                         let jsonStr = try moyaResponse.mapString()
@@ -46,7 +46,7 @@ class TestViewController: BaseViewController {
                         self.repos.append(contentsOf: items)
                         self.tableView.reloadSections(IndexSet.init(integer: 0), with: .automatic)
                     } catch {
-                        Utilities.showText("\(error.localizedDescription)")
+                        debugPrint("==========\(error.localizedDescription)")
                     }
                     
                 case .failure(let error):
