@@ -28,8 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().tintColor = Theme.mainColor
         
         UITabBar.appearance().isTranslucent = false
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor: Theme.mainColor], for: .selected)
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.lightGray], for: .normal)
+        UITabBar.appearance().tintColor = Theme.mainColor
     }
 
     //MARK: - Realm Stuff
