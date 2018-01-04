@@ -37,6 +37,7 @@
 		80CDDF51CC2BBCB5F21F4E87 /* Pods_ProjectTemplate_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF5F1822242B451A1FCA169 /* Pods_ProjectTemplate_Swift.framework */; };
 		CD3478B01FF6AAC200EA921F /* BaseRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3478AF1FF6AAC200EA921F /* BaseRealmModel.swift */; };
 		CD3478B21FF6AAF500EA921F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3478B11FF6AAF500EA921F /* TabBarController.swift */; };
+		CD42D1D21FFE715100842BCE /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42D1D11FFE715100842BCE /* ResponseModel.swift */; };
 		CD49D11C1FEC1DDF00292DFC /* MJHUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49D11B1FEC1DDF00292DFC /* MJHUDView.swift */; };
 		CDB856151FD3CB2F00860F80 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB856141FD3CB2F00860F80 /* TestModel.swift */; };
 		CDB856191FD423BB00860F80 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB856181FD423BB00860F80 /* GithubAPI.swift */; };
@@ -116,6 +117,7 @@
 		C73966DA94EC7CEB2CDF46B1 /* Pods-ProjectTemplate_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate_Swift/Pods-ProjectTemplate_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		CD3478AF1FF6AAC200EA921F /* BaseRealmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRealmModel.swift; sourceTree = "<group>"; };
 		CD3478B11FF6AAF500EA921F /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CD42D1D11FFE715100842BCE /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
 		CD49D11B1FEC1DDF00292DFC /* MJHUDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJHUDView.swift; sourceTree = "<group>"; };
 		CDB856141FD3CB2F00860F80 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		CDB856181FD423BB00860F80 /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
@@ -485,6 +487,7 @@
 			children = (
 				50C7D8411FEBCFDC008616E9 /* BaseModel.swift */,
 				CD3478AF1FF6AAC200EA921F /* BaseRealmModel.swift */,
+				CD42D1D11FFE715100842BCE /* ResponseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -781,6 +784,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD3478B01FF6AAC200EA921F /* BaseRealmModel.swift in Sources */,
+				CD42D1D21FFE715100842BCE /* ResponseModel.swift in Sources */,
 				CD3478B21FF6AAF500EA921F /* TabBarController.swift in Sources */,
 				503D68A71FD8E7C500F8F89B /* CNPPopupController.m in Sources */,
 				503C913F1FD524E200045FD1 /* NSString+Extension.swift in Sources */,

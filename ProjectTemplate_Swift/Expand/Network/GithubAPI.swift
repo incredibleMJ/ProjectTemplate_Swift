@@ -10,6 +10,9 @@ import Foundation
 import Moya
 
 let networkActivityPlugin = NetworkActivityPlugin.init { (type) in
+    if !Thread.current.isMainThread {
+        return
+    }
     switch type {
     case .began:
         Utilities.shared.checkNetworking()

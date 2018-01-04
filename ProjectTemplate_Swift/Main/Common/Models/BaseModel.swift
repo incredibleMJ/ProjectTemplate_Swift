@@ -36,3 +36,20 @@ extension Array where Element: HandyJSON {
         return tmpArray
     }
 }
+
+extension HandyJSON {
+    
+    /// 从 JSON 字符串获取非空模型
+    ///
+    /// - Parameters:
+    ///   - jsonStr: JSON 字符串
+    ///   - designatedPath: 指定的 key path
+    /// - Returns: model
+    public static func nonNilDeserialize(_ jsonStr: String, designatedPath: String? = nil) -> Self {
+        var model = Self()
+        if let _model = Self.deserialize(from: jsonStr, designatedPath: designatedPath) {
+            model = _model
+        }
+        return model
+    }
+}
