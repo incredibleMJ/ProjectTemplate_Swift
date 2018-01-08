@@ -12,5 +12,5 @@ class Config: NSObject {
     //环境配置 (线上/测试)
     open static let isTestEnvironment = true
     
-    open static let BASE_URL = "https://api.github.com"
+    open static let HTTP_BASE_URL = Config.isTestEnvironment ? "https://api.github.com" : "https://api.github.com"
 }

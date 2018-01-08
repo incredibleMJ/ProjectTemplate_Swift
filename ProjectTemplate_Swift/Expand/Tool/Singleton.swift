@@ -18,6 +18,4 @@ class Singleton: NSObject {
     
     //MARK: - 属性
     
-    
-    
 }

@@ -16,16 +16,19 @@
 		503C913F1FD524E200045FD1 /* NSString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503C913E1FD524E200045FD1 /* NSString+Extension.swift */; };
 		503C91421FD54A3F00045FD1 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503C91411FD54A3F00045FD1 /* Utilities.swift */; };
 		503D68161FD67D1A00F8F89B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503D68151FD67D1A00F8F89B /* Config.swift */; };
-		503D68A71FD8E7C500F8F89B /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503D68A41FD800F200F8F89B /* CNPPopupController.m */; };
 		503D68F11FD910B100F8F89B /* Taylor Swift8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 503D68181FD7DCD500F8F89B /* Taylor Swift8.jpeg */; };
+		505F691E20031670002360E1 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F691D2003166F002360E1 /* Double+Extension.swift */; };
+		505F693420031877002360E1 /* LBSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 505F692220031877002360E1 /* LBSegment.m */; };
+		505F693520031877002360E1 /* LBSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 505F692420031877002360E1 /* LBSegmentControl.m */; };
+		505F693620031877002360E1 /* LBKitConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 505F692720031877002360E1 /* LBKitConst.m */; };
+		505F693720031877002360E1 /* upIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 505F692920031877002360E1 /* upIcon.png */; };
+		505F693820031877002360E1 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505F692D20031877002360E1 /* UIView+ViewController.m */; };
+		505F693920031877002360E1 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 505F693020031877002360E1 /* UIViewExt.m */; };
+		505F693A20031877002360E1 /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505F693320031877002360E1 /* CNPPopupController.m */; };
+		505F693C200319A1002360E1 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F693B200319A1002360E1 /* UserInfoModel.swift */; };
+		505F693E20031A31002360E1 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F693D20031A31002360E1 /* UserAPI.swift */; };
 		50AD203B1FF22283002608B6 /* MoyaTokenPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AD203A1FF22283002608B6 /* MoyaTokenPlugin.swift */; };
 		50AD203F1FF22930002608B6 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AD203E1FF22930002608B6 /* Singleton.swift */; };
-		50C7D81D1FEB5C63008616E9 /* LBSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D80E1FEB5C63008616E9 /* LBSegment.m */; };
-		50C7D81E1FEB5C63008616E9 /* LBSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8101FEB5C63008616E9 /* LBSegmentControl.m */; };
-		50C7D81F1FEB5C63008616E9 /* LBKitConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8131FEB5C63008616E9 /* LBKitConst.m */; };
-		50C7D8201FEB5C63008616E9 /* upIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7D8151FEB5C63008616E9 /* upIcon.png */; };
-		50C7D8211FEB5C63008616E9 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8191FEB5C63008616E9 /* UIView+ViewController.m */; };
-		50C7D8221FEB5C63008616E9 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D81C1FEB5C63008616E9 /* UIViewExt.m */; };
 		50C7D8421FEBCFDD008616E9 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8411FEBCFDC008616E9 /* BaseModel.swift */; };
 		50C7D8871FECE538008616E9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C7D8861FECE538008616E9 /* Constant.swift */; };
 		50D158ED1FD0097B00E569D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D158EC1FD0097B00E569D8 /* AppDelegate.swift */; };
@@ -74,22 +77,25 @@
 		503C91411FD54A3F00045FD1 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		503D68151FD67D1A00F8F89B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		503D68181FD7DCD500F8F89B /* Taylor Swift8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Taylor Swift8.jpeg"; sourceTree = "<group>"; };
-		503D68A31FD800F200F8F89B /* CNPPopupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNPPopupController.h; sourceTree = "<group>"; };
-		503D68A41FD800F200F8F89B /* CNPPopupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNPPopupController.m; sourceTree = "<group>"; };
 		503D68A51FD8E1DE00F8F89B /* OC Bridging Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OC Bridging Header.h"; sourceTree = "<group>"; };
+		505F691D2003166F002360E1 /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		505F692120031877002360E1 /* LBSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegment.h; sourceTree = "<group>"; };
+		505F692220031877002360E1 /* LBSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSegment.m; sourceTree = "<group>"; };
+		505F692320031877002360E1 /* LBSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegmentControl.h; sourceTree = "<group>"; };
+		505F692420031877002360E1 /* LBSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSegmentControl.m; sourceTree = "<group>"; };
+		505F692620031877002360E1 /* LBKitConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBKitConst.h; sourceTree = "<group>"; };
+		505F692720031877002360E1 /* LBKitConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBKitConst.m; sourceTree = "<group>"; };
+		505F692920031877002360E1 /* upIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upIcon.png; sourceTree = "<group>"; };
+		505F692C20031877002360E1 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		505F692D20031877002360E1 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		505F692F20031877002360E1 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		505F693020031877002360E1 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		505F693220031877002360E1 /* CNPPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPPopupController.h; sourceTree = "<group>"; };
+		505F693320031877002360E1 /* CNPPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNPPopupController.m; sourceTree = "<group>"; };
+		505F693B200319A1002360E1 /* UserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		505F693D20031A31002360E1 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
 		50AD203A1FF22283002608B6 /* MoyaTokenPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaTokenPlugin.swift; sourceTree = "<group>"; };
 		50AD203E1FF22930002608B6 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
-		50C7D80D1FEB5C63008616E9 /* LBSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegment.h; sourceTree = "<group>"; };
-		50C7D80E1FEB5C63008616E9 /* LBSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSegment.m; sourceTree = "<group>"; };
-		50C7D80F1FEB5C63008616E9 /* LBSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBSegmentControl.h; sourceTree = "<group>"; };
-		50C7D8101FEB5C63008616E9 /* LBSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBSegmentControl.m; sourceTree = "<group>"; };
-		50C7D8121FEB5C63008616E9 /* LBKitConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBKitConst.h; sourceTree = "<group>"; };
-		50C7D8131FEB5C63008616E9 /* LBKitConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBKitConst.m; sourceTree = "<group>"; };
-		50C7D8151FEB5C63008616E9 /* upIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upIcon.png; sourceTree = "<group>"; };
-		50C7D8181FEB5C63008616E9 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
-		50C7D8191FEB5C63008616E9 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
-		50C7D81B1FEB5C63008616E9 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
-		50C7D81C1FEB5C63008616E9 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		50C7D8411FEBCFDC008616E9 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		50C7D8861FECE538008616E9 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		50D158E91FD0097B00E569D8 /* ProjectTemplate_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTemplate_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +187,7 @@
 			children = (
 				503C913A1FD4F84F00045FD1 /* UIColor+Extension.swift */,
 				503C913E1FD524E200045FD1 /* NSString+Extension.swift */,
+				505F691D2003166F002360E1 /* Double+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -190,6 +197,7 @@
 			children = (
 				50AD20391FF22283002608B6 /* Plugin */,
 				CDB856181FD423BB00860F80 /* GithubAPI.swift */,
+				505F693D20031A31002360E1 /* UserAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 			children = (
 				CDB856141FD3CB2F00860F80 /* TestModel.swift */,
 				CDB8561A1FD4347700860F80 /* GithubModel.swift */,
+				505F693B200319A1002360E1 /* UserInfoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,8 +268,8 @@
 			isa = PBXGroup;
 			children = (
 				503D68A51FD8E1DE00F8F89B /* OC Bridging Header.h */,
-				503D68A21FD800F200F8F89B /* CNPPopupController */,
-				50C7D80B1FEB5C63008616E9 /* LBSegmentControlKit */,
+				505F693120031877002360E1 /* CNPPopupController */,
+				505F691F20031877002360E1 /* LBSegmentControlKit */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -292,13 +301,81 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
-		503D68A21FD800F200F8F89B /* CNPPopupController */ = {
+		505F691F20031877002360E1 /* LBSegmentControlKit */ = {
 			isa = PBXGroup;
 			children = (
-				503D68A31FD800F200F8F89B /* CNPPopupController.h */,
-				503D68A41FD800F200F8F89B /* CNPPopupController.m */,
+				505F692020031877002360E1 /* LBSegmentControl */,
+				505F692520031877002360E1 /* LBSegmentControlConst */,
+				505F692820031877002360E1 /* LBSegmentControlImgs */,
+				505F692A20031877002360E1 /* LBSegmentControlTools */,
 			);
-			path = CNPPopupController;
+			name = LBSegmentControlKit;
+			path = ../../../../Californium/Projects/Coin2Coin/Coin2Coin/Vendors/LBSegmentControlKit;
+			sourceTree = "<group>";
+		};
+		505F692020031877002360E1 /* LBSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				505F692120031877002360E1 /* LBSegment.h */,
+				505F692220031877002360E1 /* LBSegment.m */,
+				505F692320031877002360E1 /* LBSegmentControl.h */,
+				505F692420031877002360E1 /* LBSegmentControl.m */,
+			);
+			path = LBSegmentControl;
+			sourceTree = "<group>";
+		};
+		505F692520031877002360E1 /* LBSegmentControlConst */ = {
+			isa = PBXGroup;
+			children = (
+				505F692620031877002360E1 /* LBKitConst.h */,
+				505F692720031877002360E1 /* LBKitConst.m */,
+			);
+			path = LBSegmentControlConst;
+			sourceTree = "<group>";
+		};
+		505F692820031877002360E1 /* LBSegmentControlImgs */ = {
+			isa = PBXGroup;
+			children = (
+				505F692920031877002360E1 /* upIcon.png */,
+			);
+			path = LBSegmentControlImgs;
+			sourceTree = "<group>";
+		};
+		505F692A20031877002360E1 /* LBSegmentControlTools */ = {
+			isa = PBXGroup;
+			children = (
+				505F692B20031877002360E1 /* UIView+ViewController */,
+				505F692E20031877002360E1 /* UIViewExt */,
+			);
+			path = LBSegmentControlTools;
+			sourceTree = "<group>";
+		};
+		505F692B20031877002360E1 /* UIView+ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				505F692C20031877002360E1 /* UIView+ViewController.h */,
+				505F692D20031877002360E1 /* UIView+ViewController.m */,
+			);
+			path = "UIView+ViewController";
+			sourceTree = "<group>";
+		};
+		505F692E20031877002360E1 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				505F692F20031877002360E1 /* UIViewExt.h */,
+				505F693020031877002360E1 /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		505F693120031877002360E1 /* CNPPopupController */ = {
+			isa = PBXGroup;
+			children = (
+				505F693220031877002360E1 /* CNPPopupController.h */,
+				505F693320031877002360E1 /* CNPPopupController.m */,
+			);
+			name = CNPPopupController;
+			path = ../../../../Californium/Projects/Coin2Coin/Coin2Coin/Vendors/CNPPopupController;
 			sourceTree = "<group>";
 		};
 		50AD20391FF22283002608B6 /* Plugin */ = {
@@ -307,72 +384,6 @@
 				50AD203A1FF22283002608B6 /* MoyaTokenPlugin.swift */,
 			);
 			path = Plugin;
-			sourceTree = "<group>";
-		};
-		50C7D80B1FEB5C63008616E9 /* LBSegmentControlKit */ = {
-			isa = PBXGroup;
-			children = (
-				50C7D80C1FEB5C63008616E9 /* LBSegmentControl */,
-				50C7D8111FEB5C63008616E9 /* LBSegmentControlConst */,
-				50C7D8141FEB5C63008616E9 /* LBSegmentControlImgs */,
-				50C7D8161FEB5C63008616E9 /* LBSegmentControlTools */,
-			);
-			path = LBSegmentControlKit;
-			sourceTree = "<group>";
-		};
-		50C7D80C1FEB5C63008616E9 /* LBSegmentControl */ = {
-			isa = PBXGroup;
-			children = (
-				50C7D80D1FEB5C63008616E9 /* LBSegment.h */,
-				50C7D80E1FEB5C63008616E9 /* LBSegment.m */,
-				50C7D80F1FEB5C63008616E9 /* LBSegmentControl.h */,
-				50C7D8101FEB5C63008616E9 /* LBSegmentControl.m */,
-			);
-			path = LBSegmentControl;
-			sourceTree = "<group>";
-		};
-		50C7D8111FEB5C63008616E9 /* LBSegmentControlConst */ = {
-			isa = PBXGroup;
-			children = (
-				50C7D8121FEB5C63008616E9 /* LBKitConst.h */,
-				50C7D8131FEB5C63008616E9 /* LBKitConst.m */,
-			);
-			path = LBSegmentControlConst;
-			sourceTree = "<group>";
-		};
-		50C7D8141FEB5C63008616E9 /* LBSegmentControlImgs */ = {
-			isa = PBXGroup;
-			children = (
-				50C7D8151FEB5C63008616E9 /* upIcon.png */,
-			);
-			path = LBSegmentControlImgs;
-			sourceTree = "<group>";
-		};
-		50C7D8161FEB5C63008616E9 /* LBSegmentControlTools */ = {
-			isa = PBXGroup;
-			children = (
-				50C7D8171FEB5C63008616E9 /* UIView+ViewController */,
-				50C7D81A1FEB5C63008616E9 /* UIViewExt */,
-			);
-			path = LBSegmentControlTools;
-			sourceTree = "<group>";
-		};
-		50C7D8171FEB5C63008616E9 /* UIView+ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				50C7D8181FEB5C63008616E9 /* UIView+ViewController.h */,
-				50C7D8191FEB5C63008616E9 /* UIView+ViewController.m */,
-			);
-			path = "UIView+ViewController";
-			sourceTree = "<group>";
-		};
-		50C7D81A1FEB5C63008616E9 /* UIViewExt */ = {
-			isa = PBXGroup;
-			children = (
-				50C7D81B1FEB5C63008616E9 /* UIViewExt.h */,
-				50C7D81C1FEB5C63008616E9 /* UIViewExt.m */,
-			);
-			path = UIViewExt;
 			sourceTree = "<group>";
 		};
 		50D158E01FD0097A00E569D8 = {
@@ -617,7 +628,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				503D68F11FD910B100F8F89B /* Taylor Swift8.jpeg in Resources */,
-				50C7D8201FEB5C63008616E9 /* upIcon.png in Resources */,
+				505F693720031877002360E1 /* upIcon.png in Resources */,
 				50D158F71FD0097B00E569D8 /* LaunchScreen.storyboard in Resources */,
 				50D158F41FD0097B00E569D8 /* Assets.xcassets in Resources */,
 				50D158F21FD0097B00E569D8 /* Main.storyboard in Resources */,
@@ -784,32 +795,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD3478B01FF6AAC200EA921F /* BaseRealmModel.swift in Sources */,
+				505F693620031877002360E1 /* LBKitConst.m in Sources */,
 				CD42D1D21FFE715100842BCE /* ResponseModel.swift in Sources */,
 				CD3478B21FF6AAF500EA921F /* TabBarController.swift in Sources */,
-				503D68A71FD8E7C500F8F89B /* CNPPopupController.m in Sources */,
+				505F693920031877002360E1 /* UIViewExt.m in Sources */,
 				503C913F1FD524E200045FD1 /* NSString+Extension.swift in Sources */,
-				50C7D81E1FEB5C63008616E9 /* LBSegmentControl.m in Sources */,
 				503C91421FD54A3F00045FD1 /* Utilities.swift in Sources */,
 				50AD203B1FF22283002608B6 /* MoyaTokenPlugin.swift in Sources */,
+				505F693A20031877002360E1 /* CNPPopupController.m in Sources */,
 				CD49D11C1FEC1DDF00292DFC /* MJHUDView.swift in Sources */,
-				50C7D8211FEB5C63008616E9 /* UIView+ViewController.m in Sources */,
 				503C91391FD4F3D300045FD1 /* Theme.swift in Sources */,
 				CDB856151FD3CB2F00860F80 /* TestModel.swift in Sources */,
-				50C7D81D1FEB5C63008616E9 /* LBSegment.m in Sources */,
 				50C7D8871FECE538008616E9 /* Constant.swift in Sources */,
-				50C7D8221FEB5C63008616E9 /* UIViewExt.m in Sources */,
 				503D68161FD67D1A00F8F89B /* Config.swift in Sources */,
+				505F693C200319A1002360E1 /* UserInfoModel.swift in Sources */,
+				505F691E20031670002360E1 /* Double+Extension.swift in Sources */,
 				50AD203F1FF22930002608B6 /* Singleton.swift in Sources */,
 				503C913B1FD4F84F00045FD1 /* UIColor+Extension.swift in Sources */,
+				505F693820031877002360E1 /* UIView+ViewController.m in Sources */,
+				505F693420031877002360E1 /* LBSegment.m in Sources */,
 				CDB8561B1FD4347700860F80 /* GithubModel.swift in Sources */,
 				502D19DD1FD10945002DC38D /* TestViewController.swift in Sources */,
 				50D158ED1FD0097B00E569D8 /* AppDelegate.swift in Sources */,
-				50C7D81F1FEB5C63008616E9 /* LBKitConst.m in Sources */,
+				505F693E20031A31002360E1 /* UserAPI.swift in Sources */,
 				CDB856191FD423BB00860F80 /* GithubAPI.swift in Sources */,
 				CDFE4C851FE690960036D00E /* DataBase.swift in Sources */,
 				CDFE4C901FE6916E0036D00E /* AHomeCell.swift in Sources */,
 				503C91321FD4F2CD00045FD1 /* BaseViewController.swift in Sources */,
 				50C7D8421FEBCFDD008616E9 /* BaseModel.swift in Sources */,
+				505F693520031877002360E1 /* LBSegmentControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

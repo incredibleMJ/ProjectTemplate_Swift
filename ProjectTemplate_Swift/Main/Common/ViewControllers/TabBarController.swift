@@ -20,8 +20,8 @@ class TabBarController: UITabBarController {
                                 selectedImageName: String) {
         vc.title = title
         vc.tabBarItem.title = title
-        vc.tabBarItem.image = UIImage.init(named: imageName)
-        vc.tabBarItem.selectedImage = UIImage.init(named: selectedImageName)
+        vc.tabBarItem.image = UIImage.init(named: imageName)?.withRenderingMode(.alwaysOriginal)
+        vc.tabBarItem.selectedImage = UIImage.init(named: selectedImageName)?.withRenderingMode(.alwaysOriginal)
         
         let navi = UINavigationController.init(rootViewController: vc)
         self.addChildViewController(navi)

@@ -18,8 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         Utilities.shared.startNetworkMonitor()
         realmMigration()
-        Bugly.start(withAppId: "")
         configGlobalUI()
+        Bugly.start(withAppId: "")
+        
+//        self.window?.rootViewController = checkToken() ? TabBarController() : TestViewController()
+        self.window?.rootViewController = UINavigationController.init(rootViewController: TestViewController())
+        window?.backgroundColor = UIColor.white
+        window?.makeKeyAndVisible()
         return true
     }
     
@@ -29,6 +34,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UITabBar.appearance().isTranslucent = false
         UITabBar.appearance().tintColor = Theme.mainColor
+    }
+    
+    func checkToken() -> Bool {
+        var isTokenValid = false
+        let sema = DispatchSemaphore.init(value: 0)
+        userProvider.request(UserAPI.firstValidate(token: Utilities.getToken()), callbackQueue: DispatchQueue.global()) { (result) in
+            switch result {
+            case .failure(let error):
+                debugPrint(error.localizedDescription)
+            case .success(let response):
+                do {
+                    let json = try response.mapString()
+                    let responseModel = ResponseModel.nonNilDeserialize(json)
+                    
+                    if responseModel.success == 1 {
+                        isTokenValid = true
+                    } else {
+                        debugPrint(responseModel.error.message)
+                    }
+                } catch {
+                    debugPrint(error.localizedDescription)
+                }
+            }
+            sema.signal()
+        }
+        sema.wait()
+        return isTokenValid
     }
 
     //MARK: - Realm Stuff

@@ -23,7 +23,7 @@ let networkActivityPlugin = NetworkActivityPlugin.init { (type) in
 }
 
 let tokenPlugin = MoyaTokenPlugin.init { () -> String in
-    return "t-Pi6VuGKvcbXzFi2kTIhvXnyY5V5fkBqXsOoBdmzEVLFMYELSu_hN6egChIzJyFgcam45YnZj7oaUzu002Y4Hdy-EdBoNUowisqSL8SscQ"
+    return Utilities.getToken()
 }
 
 let gitHubProvider = MoyaProvider<GitHub>(plugins: [NetworkLoggerPlugin(verbose: false), networkActivityPlugin, tokenPlugin])
@@ -36,7 +36,12 @@ public enum GitHub {
 
 extension GitHub: TargetType {
     public var baseURL: URL {
-        return URL.init(string: Config.BASE_URL)!
+        var url = URL.init(string: "http://www.google.com/")!
+        if let _url = URL.init(string: Config.HTTP_BASE_URL) {
+            url = _url
+        }
+        return url
+
     }
     
     public var path: String {

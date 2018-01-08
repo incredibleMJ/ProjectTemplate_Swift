@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import MBProgressHUD
+import RealmSwift
 
 class Utilities: NSObject {
     
@@ -65,7 +66,7 @@ class Utilities: NSObject {
         hud.label.font = UIFont.systemFont(ofSize: 15)
     }
     
-    ///弹出文字提示
+    ///弹出文字提示 2秒后自动消失
     static func showText(_ text: String) {
         Utilities.hideHUD()
         let hud = MJHUDView.showAdded(to: Constant.keyWindow, animated: true)
@@ -82,6 +83,23 @@ class Utilities: NSObject {
             hud.hide(animated: true)
         }
         Utilities.shared.showedHuds.removeAll()
+    }
+    
+    //MARK: - 其他
+    
+    static func getToken() -> String {
+        var token = ""
+        
+        do {
+            let realm = try Realm()
+            if let userInfo = realm.objects(UserInfoModel.self).first {
+                token = userInfo.token
+            }
+        } catch {
+            debugPrint("Realm Error==========\(error.localizedDescription)")
+        }
+        
+        return token
     }
     
 }

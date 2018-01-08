@@ -18,6 +18,7 @@ target 'ProjectTemplate_Swift' do
   pod 'DZNEmptyDataSet' #空列表显示
   pod 'RealmSwift' #数据库
   pod 'Bugly' #崩溃日志
+  pod 'FCUUID' #设备唯一标识
 
   target 'ProjectTemplate_SwiftTests' do
     inherit! :search_paths
