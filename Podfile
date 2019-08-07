@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
- platform :ios, '8.3'
+ platform :ios, '10.0'
  inhibit_all_warnings!
 
 target 'ProjectTemplate_Swift' do
@@ -9,7 +9,7 @@ target 'ProjectTemplate_Swift' do
   # Pods for ProjectTemplate_Swift
   pod 'Moya', '~> 9.0' #网络抽象层
   pod 'Alamofire', '~> 4.5' #网络请求库
-  pod 'HandyJSON', '~> 4.0.0-beta.1' #JSON转模型
+  pod 'HandyJSON', '~> 4.2.1' #JSON转模型
   pod 'MJRefresh' #下拉刷新
   pod 'MBProgressHUD', '~> 1.1.0' #弹框提示
   pod 'SnapKit', '~> 4.0.0' #布局库
@@ -31,4 +31,12 @@ target 'ProjectTemplate_Swift' do
     # Pods for testing
   end
 
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['SWIFT_VERSION'] = '4.2'
+    end
+  end
 end
